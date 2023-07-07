@@ -1,9 +1,10 @@
 import React from 'react'
 
-const FeedbackCard = () => {
-  return (
-    <div>FeedbackCard</div>
-  )
-}
+const FeedbackCard = ({ content, name, title, img}) =>  (
+  <div className='flex justify-between'>
+
+  </div>
+)
+
 
 export default FeedbackCard
